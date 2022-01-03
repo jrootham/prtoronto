@@ -1,0 +1,44 @@
+body
+{
+	background-color: RGBA(135, 206, 235, 1);
+}
+
+h1
+{
+	text-align: center;
+}
+
+#container
+{
+	top: 0;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	background-color: RGBA(135, 206, 235, 1);
+}
+
+.screenreader-text 
+{
+	position: absolute;
+	left: -999px;
+	width: 1px;
+	height: 1px;
+	top: auto;
+}
+
+.screenreader-text:focus 
+{
+	color: black;
+	border: none;
+	display: inline-block;
+	height: auto;
+	width: auto;
+	position: static;
+	margin: auto;
+}
+
+.text
+{
+	margin-top: 10px;
+}
