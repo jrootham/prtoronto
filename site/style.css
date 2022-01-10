@@ -18,6 +18,17 @@ h1
 	background-color: RGBA(135, 206, 235, 1);
 }
 
+.text
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.major
+{
+	margin-bottom: 10px;
+}
+
 .screenreader-text 
 {
 	position: absolute;
@@ -38,7 +49,3 @@ h1
 	margin: auto;
 }
 
-.text
-{
-	margin-top: 10px;
-}
